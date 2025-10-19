@@ -1,0 +1,9 @@
+{
+    "nombre": "Juan",
+    "edad": 30,
+    "ciudades": [
+        "Madrid",
+        "Barcelona"
+    ],
+    "activo": true
+}

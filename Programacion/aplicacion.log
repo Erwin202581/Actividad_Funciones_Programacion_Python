@@ -1,0 +1,17 @@
+2025-10-18 20:26:35,404 - mi_aplicacion - DEBUG - Intentando realizar operación con valor: 20
+2025-10-18 20:26:35,404 - mi_aplicacion - INFO - Operación exitosa. Resultado: 5.0
+2025-10-18 20:26:35,405 - mi_aplicacion - DEBUG - Intentando realizar operación con valor: 1
+2025-10-18 20:26:35,405 - mi_aplicacion - INFO - Operación exitosa. Resultado: 100.0
+2025-10-18 20:26:35,405 - mi_aplicacion - WARNING - El resultado 100.0 es inusualmente alto.
+2025-10-18 20:26:35,405 - mi_aplicacion - DEBUG - Intentando realizar operación con valor: 0
+2025-10-18 20:26:35,406 - mi_aplicacion - ERROR - Intento de división por cero.
+2025-10-18 20:26:35,408 - mi_aplicacion - DEBUG - Intentando realizar operación con valor: 50
+2025-10-18 20:26:35,408 - mi_aplicacion - INFO - Operación exitosa. Resultado: 2.0
+2025-10-18 20:26:35,409 - mi_aplicacion - DEBUG - Intentando realizar operación con valor: texto
+2025-10-18 20:26:35,409 - mi_aplicacion - CRITICAL - CRITICAL: Ha ocurrido un error inesperado: unsupported operand type(s) for /: 'int' and 'str'
+Traceback (most recent call last):
+  File "c:\Users\Erwin Joya Pulido\Documents\CARPETA PY\Programacion\39_Eje.py", line 28, in realizar_operacion
+    resultado = 100 / valor
+                ~~~~^~~~~~~
+TypeError: unsupported operand type(s) for /: 'int' and 'str'
+2025-10-18 20:26:35,422 - mi_aplicacion - INFO - Fin de la demostración de logging.
